@@ -1,0 +1,2 @@
+This week I elplored the role and importance of data as well as developer , iinstall several applications
+ Installed VS code, .net and learned some Git features

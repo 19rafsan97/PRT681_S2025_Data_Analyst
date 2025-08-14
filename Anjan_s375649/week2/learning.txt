@@ -1,0 +1,6 @@
+on week 2, I learned and explored data role key difference in role with in data  tools and technique to be learned to be data analyst, data engineer and data scientist
+made hello world in console app in  .net framework
+ learned .net basic installation and writing code in .net
+ learned more tools and techniques of data and my intrest grew towards data 
+ started dowloanding software needed for data engineer and collected the sources and roadmap
+  continued my linkeldn learning.
