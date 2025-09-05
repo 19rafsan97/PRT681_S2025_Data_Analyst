@@ -1,0 +1,3 @@
+Started using one note researched and created linkeldn learning notes in one notes
+Learned python basic code  and worked on advanced sql in w3school.
+Disccussion realted to project with team regarding the ETL process.
