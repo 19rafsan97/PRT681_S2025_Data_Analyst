@@ -3,3 +3,5 @@ researched  datavisualtion project in github and study that
 install jupter notebook for data visulation.
 learned about Power BI and dashboard to create data visulatization.
 Learned about several python libraries for data visulatzation.
+
+Install Power BI desktop and worked integrating ssms and power bi and saw the basic visulation
