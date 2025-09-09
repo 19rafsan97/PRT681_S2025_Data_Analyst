@@ -1,0 +1,11 @@
+ProductID,ProductName,Category,UnitPrice
+101,Notebook,Stationery,3.5
+102,Mouse,Accessories,15.0
+103,Keyboard,Accessories,25.0
+104,Monitor,Hardware,180.0
+105,Desk,Furniture,120.0
+106,Chair,Furniture,85.0
+107,USB Cable,Accessories,8.0
+108,Headset,Accessories,60.0
+109,Laptop,Hardware,1200.0
+110,Docking Station,Hardware,150.0
