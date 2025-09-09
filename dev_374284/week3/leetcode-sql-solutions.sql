@@ -1,0 +1,25 @@
+-- Week 3: LeetCode SQL Study Plan (SQLite versions)
+-- 1) Combine Two Tables
+-- SELECT p.FirstName, p.LastName, a.City, a.State
+-- FROM Person p LEFT JOIN Address a ON p.PersonId = a.PersonId;
+-- 2) Employees Earning More Than Their Managers
+-- SELECT e.Name AS Employee
+-- FROM Employee e JOIN Employee m ON e.ManagerId = m.Id
+-- WHERE e.Salary > m.Salary;
+-- 3) Duplicate Emails
+-- SELECT Email FROM Person GROUP BY Email HAVING COUNT(*) > 1;
+-- 4) Customers Who Never Order
+-- SELECT c.Name AS Customers
+-- FROM Customers c LEFT JOIN Orders o ON c.Id = o.CustomerId
+-- WHERE o.Id IS NULL;
+-- 5) Rising Temperature
+-- SELECT t.Id
+-- FROM Weather t
+-- JOIN Weather y ON date(t.RecordDate) = date(y.RecordDate, '+1 day')
+-- WHERE t.Temperature > y.Temperature;
+-- 6) Department Top Three Salaries (window)
+-- SELECT Department, Name, Salary FROM (
+--   SELECT d.Name AS Department, e.Name, e.Salary,
+--          DENSE_RANK() OVER (PARTITION BY d.Name ORDER BY e.Salary DESC) AS rnk
+--   FROM Employee e JOIN Department d ON e.DepartmentId = d.Id)
+-- WHERE rnk <= 3;
