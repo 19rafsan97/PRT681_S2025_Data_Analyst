@@ -1,0 +1,68 @@
+
+ Week 5 –
+This week focused on deepening my knowledge of Microsoft SQL Server tools, 
+completing training on SQL Server Integration Services (SSIS), and exploring 
+SSMS concepts related to OLAP cubes and dimensions. I also designed and 
+tested a small ETL pipeline and studied star schema modeling.
+
+
+
+1. LinkedIn Learning – SQL Server Integration Services (SSIS)
+
+- Completed the LinkedIn Learning course on SSIS.
+- Learned the difference between Control Flow and Data Flow.
+- Practiced creating and using Connection Managers (Flat File, OLE DB).
+- Implemented a simple ETL pipeline:
+  Flat File Source → Derived Column (audit fields) → OLE DB Destination (FastLoad).
+- Learned to add audit fields:
+  * LoadBatchId = NEWID()
+  * LoadDts = SYSUTCDATETIME()
+  * SourceFile = parameter from the flat file name
+- Understood Lookup, Merge Join, and error redirection patterns in SSIS.
+- Noted the importance of using Fast Load with Table Lock for bulk insert performance.
+
+
+
+2. ETL Pipeline Demo (SQL + CSV Source)
+- Created a staging table: stg.Sales_Staging
+- Designed audit fields to track file loads (SourceFile, LoadBatchId, LoadDts).
+- Prepared a sample CSV file (etl_source_sales.csv) with demo sales orders.
+- Loaded data into staging and then merged into dbo.FactSales using a T-SQL MERGE statement.
+- Documented the ETL design, mappings, and error handling steps.
+
+
+
+
+3. OLAP Concepts – Cubes & Dimensions
+
+- Explored SSMS basics related to OLAP cubes and dimensions.
+- Learned how a Star Schema is structured:
+  * Fact table: contains numeric measures (e.g., sales).
+  * Dimension tables: contain descriptive attributes (Customer, Product, Time).
+- Created a demo star schema in SQL Server:
+  * DimCustomer, DimProduct, DimDate, FactSales
+- Inserted sample records and ran queries for analysis:
+  * Revenue by Category
+  * Sales by Customer City
+- Documented MDX example queries for cube-like analysis.
+
+Supporting files pushed:
+- sql/olap-dimensions-demo.sql
+- docs/mdx_examples.mdx.txt
+- tutorials/ssms-cubes-dimensions-notes.md
+
+
+4. Learning Logs & Evidence
+
+- Created structured logs of resources studied during the week.
+- YouTube / LinkedIn resources included:
+  * TechBrothersIT SSIS Tutorial for Beginners playlist
+  * Guy in a Cube – Star Schema vs Snowflake
+  * SQLBI – Intro to SSAS Tabular Models
+- Logged dates, topics, durations, and notes into CSV, Markdown, and PDF.
+
+
+
+youtube links : https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
+
+linkin course: Check this out on LinkedIn Learning: https://www.linkedin.com/learning/certificates/36e13990acc5dd967e6e409383e38e3c6da864f4470ec158ea4a5b25d603df70?trk=share_certificate 
