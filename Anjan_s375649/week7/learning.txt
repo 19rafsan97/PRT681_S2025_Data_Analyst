@@ -1,0 +1,8 @@
+During this week i mainly focused on ssms and after that i did  dowloand  the  adventure work data base  and did some joins and query  
+
+I worked with basic and advance query from the database that were presenet in  adventure Db.
+ 
+ I dowloanded and restored the adventureworks db and save the scripts here 
+ used keys and joins 
+  did backup and restore process in database using menu options
+  
