@@ -1,0 +1,4 @@
+Worked with VLOOKUP and HLOOKUP functions.
+Practiced INDEX-MATCH for flexible lookups.
+Learned SUMIFS, COUNTIFS, and AVERAGEIFS for conditional calculations.
+Applied conditional formatting for dynamic reports.
