@@ -1,1 +1,10 @@
- I am learning ssms and adventure db 
+ I learned how to use INNER, LEFT, RIGHT, and FULL OUTER joins to combine data from multiple tables.
+Practiced filtering with ON and WHERE clauses.
+Explored handling NULLs in outer joins for completeness.
+Used joins in real-life examples like sales and customer reports.
+
+SQLite
+Learned how to create tables and insert data in SQLite.
+Wrote SELECT, UPDATE, and DELETE queries on sample data.
+Understood relational concepts like primary keys and joins.
+Practiced lightweight database tasks for learning purposes.

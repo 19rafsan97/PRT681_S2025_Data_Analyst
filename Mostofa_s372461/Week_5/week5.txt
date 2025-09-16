@@ -1,0 +1,7 @@
+Practiced loading data into Power BI and creating dashboards.
+Used visualizations like bar charts and KPIs to show insights.
+Created slicers and filters for interactive reports.
+Understood data modeling basics for simple analysis.
+
+
+done this youtube video: https://www.youtube.com/watch?v=6cV3OwFrOkk&ab_channel=RishabhMishra
